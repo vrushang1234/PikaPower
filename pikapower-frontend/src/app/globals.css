@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap");
+
+* {
+  margin: 0 0 0 0;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(234, 179, 0);
+  position: relative;
+  height: 8vh;
+}
+
+.pikaLogo-container {
+  position: relative;
+  height: 4rem;
+  width: 4rem;
+}
