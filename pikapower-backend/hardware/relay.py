@@ -7,12 +7,10 @@ class Relay:
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(self.pin, GPIO.OUT)
 
-    def switch_to_seller(self):
+    def switch_to_buyer(self):
         GPIO.output(self.pin, GPIO.HIGH)
         self.state = True
-        print("Switch to Seller")
 
-    def switch_to_buyer(self):
+    def switch_to_seller(self):
         GPIO.output(self.pin, GPIO.LOW)
         self.state = False
-        print("Switch to Buyer")
